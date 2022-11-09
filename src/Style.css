@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.home {
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    background-color: black;
+    justify-content: space-around;
+}
+.homeul {
+    display: flex;
+    padding: 0rem 2rem;
+}
+li {
+    margin-left: 3rem;
+    border: 0rem;
+    list-style: none;
+    color: white;
+    
+}
+.plogo {
+    color: white;
+}
+
+.hlink {
+    text-decoration: none;
+}
+.active {
+    color: aqua;
+}
+.p1d1 {
+    position: relative;
+}
+.p1h1 {
+    position: absolute;
+    top: 3rem;
+    right: 10rem;
+    font-size: 3rem;
+    color: crimson;
+}
+.p1p1 {
+    position: absolute;
+    top: 6rem;
+    margin: 2rem;
+    right: 5rem;
+    width: 30%;
+}
+.p1btn {
+    position: absolute;
+    top: 9rem;
+    margin: 4rem;
+    padding: 0.3rem 1rem;
+    right: 6rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 0.5rem;
+    background-color: orange;
+}
+.p1btn:hover {
+    background-color: aliceblue;
+    color: darkblue;
+}
+
+.page2 {
+    background-color: skyblue;
+    background-image: linear-gradient(rgb(21, 122, 161),rgb(180, 201, 209));
+    height: 40rem;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    width: 20%;
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-radius: 1.2rem;
+    border: 0.1rem solid black;
+    background-color:rgb(167, 231, 231)
+}
+.p2h1 {
+    text-align: center;
+    font-size: 2.8rem;
+    color: white;
+    padding-top: 1rem;
+}
+.p2px {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+    margin-top: 1rem;
+}
+.p2h3 {
+    margin: 2rem 0rem;
+}
+.p2p1 {
+    padding-bottom: 3rem;
+}
+.icon1 {
+display: inline-block;
+border: 0;
+border-radius: 50%;
+padding: 0.5rem;
+background-color: white;
+}
